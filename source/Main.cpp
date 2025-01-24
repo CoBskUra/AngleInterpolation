@@ -62,7 +62,11 @@ int main()
 
 
 		camera.Inputs(window);
-		camera.ActiveInterferes();
+		ImGui::SetNextWindowPos({ 0, 0 });
+		ImGui::Begin("Camera"); {
+			camera.ActiveInterferes();
+		}
+		ImGui::End();
 		animation.InterfersWindows(width, height);
 		animation.Draw(window, camera, width, height, cross);
 		
