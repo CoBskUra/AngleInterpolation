@@ -4,7 +4,7 @@
 #include <filesystem>
 #include "Figures/Cylinder.h"
 #include "Figures/InfinityGrid.h"
-#include <Figures/Spere.h>
+#include <Figures/Sphere.h>
 #include <Figures/Cross.h>
 #include <Helper/ImGuiStyles.h>
 #include "Animation/InterpolationAnimation.h"

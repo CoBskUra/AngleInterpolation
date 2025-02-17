@@ -15,7 +15,7 @@ add_executable (AngleInterpolation "Main.cpp" "Main.h" "Camera.cpp" "Camera.h"  
   "Transformations/Rotation.cpp" "Transformations/Rotation.h" "Transformations/RotationImGui.h" "Transformations/Scale.cpp" "Transformations/Scale.h" "Transformations/ScaleImGui.h"
    "Helper/FileManager.h"
 
- "Figures/Cylinder.h" "Figures/Cross.h" "Figures/Spere.h" "Animation/InterpolationAnimation.h" "Animation/InterpolationAnimation.cpp" "Helper/DeltaTime.h" "Helper/ImGuiStyles.cpp" "Helper/ImGuiStyles.h")
+ "Figures/Cylinder.h" "Figures/Cross.h" "Figures/Sphere.h" "Animation/InterpolationAnimation.h" "Animation/InterpolationAnimation.cpp" "Helper/DeltaTime.h" "Helper/ImGuiStyles.cpp" "Helper/ImGuiStyles.h" "Figures/Cylinder.cpp" "Figures/Cross.cpp" "Figures/Sphere.cpp")
 
   if (CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
     add_compile_options(
